@@ -118,17 +118,32 @@ p {
 }
 
 .btn {
-  color: black;
   font-size: 18px;
   text-align: center;
   padding: 10px 20px;
   text-transform: uppercase;
   cursor: pointer;
-  background: none;
+  background: var(--primary);
   border: 1px solid var(--primary);
   color: var(--secondary);
 }
 
 .btn:visited {
   color: black;
+}
+
+.footer {
+  background: var(--secondary);
+  border-top: 2px solid var(--primary);
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.meal-picker {
+  text-align: center;
 }
